@@ -111,6 +111,7 @@ img {
 .why-us {
     margin-bottom: 3rem;
 }
+
 .why-us .col-left {
     width: 40%;
 }
@@ -127,23 +128,39 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
- @media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
     .steps {
-        margin: 10rem 0;
-        padding: 10rem 0;
+        margin: 1rem 0;
+        padding: 1rem 0;
         color: #232946;
         background: #eebbc3;
         width: 100%;
     }
+
     .container {
-        width: 114px;
-        margin: 0 auto;
-        padding: 0 20px;
+        width: 600px;
     }
-    title{
-        text-align: center;
+
+}
+
+@media screen and (max-width: 425px) {
+    .steps {
+        margin: 1rem 0;
+        padding: 1rem 0;
+        color: #232946;
+        background: #eebbc3;
+        width: 100%;
     }
- }
- h1{
-    color: aqua
- }
+
+    .container {
+        width: 400px;
+    }
+
+    .container {
+        
+    }
+
+    .why-us {
+        padding-top: 20px;
+    }
+}

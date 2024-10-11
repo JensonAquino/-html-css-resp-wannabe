@@ -127,6 +127,23 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
- @media screen and (min-wi) {
-    
+ @media screen and (max-width: 768px){
+    .steps {
+        margin: 10rem 0;
+        padding: 10rem 0;
+        color: #232946;
+        background: #eebbc3;
+        width: 100%;
+    }
+    .container {
+        width: 114px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    title{
+        text-align: center;
+    }
+ }
+ h1{
+    color: aqua
  }
